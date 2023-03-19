@@ -1,0 +1,136 @@
+body{
+    background-color: #F2F8F9;
+}
+
+.firstrectingale{
+    position: absolute;
+    width: 400%;
+    height: 11.5%;
+    left: 0%;
+    background: #FFFFFF;
+    top: 0%;
+    z-index: 0;
+}
+
+#discol{
+    color: #BB6F8B;
+    user-select: none;
+}
+
+#studis{
+    position: absolute;
+    width: 90%;
+    height: 66px;
+    left: 33%;
+    top: 22.13%;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3vw;
+    line-height: 67px;
+    color: #458C8D;
+}
+
+#textdis{
+    position: absolute;
+    width: 45%;
+    height: 34.54%;
+    left: 26.5%;
+    top: 40%;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6vw;
+    line-height: 37px;
+    color: #778C8C;
+}
+
+@media screen and (max-width: 1366px) {
+    #studis{
+        position: absolute;
+        width: 90%;
+        height: 66px;
+        left: 28%;
+        top: 22.13%;
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 4vw;
+        line-height: 67px;
+        color: #458C8D;
+    }
+    
+    #textdis{
+        position: absolute;
+        width: 45%;
+        height: 34.54%;
+        left: 26.5%;
+        top: 40%;
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2vw;
+        line-height: 37px;
+        color: #778C8C;
+    }
+}
+
+@media screen and (max-width: 820px) and (max-height: 1180px) {
+    #studis{
+        position: absolute;
+        width: 90%;
+        height: 66px;
+        left: 22%;
+        top: 22.13%;
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 6vw;
+        line-height: 67px;
+        color: #458C8D;
+    }
+    
+    #textdis{
+        position: absolute;
+        width: 60%;
+        height: 34.54%;
+        left: 22%;
+        top: 35%;
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3.5vw;
+        line-height: 37px;
+        color: #778C8C;
+    }
+}
+
+@media screen and (max-width: 414px) and (max-height: 896px) {
+    #studis{
+        position: absolute;
+        width: 90%;
+        height: 66px;
+        left: 11%;
+        top: 18%;
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 8vw;
+        line-height: 67px;
+        color: #458C8D;
+    }
+    
+    #textdis{
+        position: absolute;
+        width: 80%;
+        height: 34.54%;
+        left: 10%;
+        top: 30%;
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 5vw;
+        line-height: 37px;
+        color: #778C8C;
+    }
+}
