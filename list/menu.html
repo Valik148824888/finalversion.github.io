@@ -11,13 +11,14 @@
     <link href="https://fonts.cdnfonts.com/css/proxima-nova-2" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/proxima-nova-alt-rg" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/proxima-nova-alt-lt-2" rel="stylesheet">
+    <link href="https://lk.easynetshop.ru/frontend/v5/ens-0e2b0b35.css" rel="stylesheet">
 </head>
 <body>
     <img id="mobmenu" src="../img/menu 1.png">
     <div class="firstrectingale" ></div>
     <div>
         <button class="buttons">
-            <img id="cart" src="../img/cart 1.png">
+            <img class="basket" id="cart" src="../img/cart 1.png">
         </button>
         <button class="buttons">
             <img id="contact" src="../img/contact 1.png">
@@ -27,12 +28,17 @@
     <h1 id="combos">FAVORITE COMBOS</h1>
     <h1 id="wafleeees">WAFFLES</h1>
     <h1 id="shakes">MILKSHAKES</h1>
-    <button type="button" id="menuBtn">
-        <img src="../img/add green 1.png">
-    </button>       
-    <button type="button" id="menuBtn2">
-        <img src="../img/add green 1.png">
-    </button> 
+    <div>
+        <a class="buttonBUY" 
+        data-sb-id-or-vendor-code="1vmcw15"
+        data-sb-product-name="Vanilla Milkshake & Chocolate Waffle"
+        data-sb-product-price="15"
+        data-sb-product-quantity="1"
+        data-sb-product-img="../img/vanilla milkshake photo 2.png"
+        href="#">
+            <img src="../img/add green 1.png">
+        </a>  
+    </div>  
     <img id="cartpink" src="../img/cart pink 1.png">
     <div id="popupMenu">
         <ul class="listnonedot">
@@ -60,7 +66,7 @@
         <li id="faq"><a href="../otherPages/bancoc.html">FAQ</a></li>
     </div>
     <img id="mobmenu" src="../img/menu 1.png">
-    <div>
+    <div class="tovar">
         <img id="pic1" src="../img/vanilla milkshake photo 2.png">
         <img id="pic2" src="../img/chocholate milkshake photo 1.png">
         <img id="pic3" src="../img/vanilla and strabwerry 1.png">
@@ -72,5 +78,10 @@
         <img id="pic9" src="../img/strawberry milkshake 1.png">
     </div>
     <script src="../script/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="smartbasket/css/smartbasket.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script defer src="https://lk.easynetshop.ru/frontend/v5/ens-0e2b0b35.js"></script>
 </body>
 </html>
